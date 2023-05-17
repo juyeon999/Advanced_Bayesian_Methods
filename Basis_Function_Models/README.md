@@ -1,5 +1,5 @@
 # Basis Function Models (Bayesian)
-## Nonparametric bayesian model
+## What is Nonparametric model?
 - Parametric linear model
   - $E(y_i) = g(X_i, \beta)$ with known function $g$ (but with unknown $\beta$)
   - unknown $\beta$ is the target of inference
@@ -8,7 +8,9 @@
   - Add gaussian assumption to random noise
   - $y_i = \mu(x_i) + \epsilon_i, \quad \epsilon \sim \text{N}(0, \sigma^2)$
   
-### Basis expansion models
+### Why we use basis expansion for density estimation?
+> basis로 target distribution과 같은 공간 span 할 수 있다면 target distribution도 approximate 가능 (taylor expansion으로 뒷받침 가능)  
+
 - $\mu(x) = \sum_{h=1}^{H} \beta_h b_h(x)$
 - Can be expressed as Linear model
 - $y = W\beta + \epsilon, \epsilon \sim \text{N}(o, \sigma^2 I_n)$
