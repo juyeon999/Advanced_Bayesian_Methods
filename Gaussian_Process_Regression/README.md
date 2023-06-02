@@ -23,3 +23,11 @@ i.e. every finite linear combination of them is normally distributed. The distri
 #### Reference
   - https://en.wikipedia.org/wiki/Gaussian_process
   - https://gaussian37.github.io/ml-concept-gaussian_process/
+    
+    
+    
+    
+## 2. GP regression
+reference
+ - https://cs229.stanford.edu/section/cs229-gaussian_processes.pdf
+ - https://www.apps.stat.vt.edu/leman/VTCourses/GPtutorial.pdf
