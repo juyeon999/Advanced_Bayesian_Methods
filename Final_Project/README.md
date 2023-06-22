@@ -2,7 +2,13 @@
 **자세한 사항은 같은 폴더 내의 "Final_houseprice.pdf"**
 
 ## 1. Data
+Using house sale price dataset for King County, USA. (https://www.kaggle.com/datasets/harlfoxem/housesalesprediction)
 ## 2. EDA
+- `riverside` 변수 생성
+  spatial information을 주기 위함. logprice가 물가 근처에서 높은 것에서 착안
+    
+  <img width="983" alt="image" src="https://github.com/juyeon999/Advanced_Bayesian_Methods/assets/132811616/c48e060c-58e1-4a37-ac76-82684082178d">
+
 ## 3. Model
 ### Model 1 - Hierarchical Linear model with riverside random effect
 #### 1. Model formula
