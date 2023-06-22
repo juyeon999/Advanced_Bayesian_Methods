@@ -1,4 +1,6 @@
 # Final project for Advanced Bayesian Methods
+**자세한 사항은 같은 폴더 내의 "Final_houseprice.pdf"**
+
 ## 1. Data
 ## 2. EDA
 ## 3. Model
